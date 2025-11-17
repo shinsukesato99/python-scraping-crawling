@@ -1,0 +1,36 @@
+# Web Scraping & Crawling - Core Libraries
+requests==2.31.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Browser Automation
+selenium==4.16.0
+playwright==1.41.0
+
+# Data Processing
+pandas==2.2.0
+numpy==1.26.3
+
+# HTTP and Networking
+urllib3==2.1.0
+httpx==0.26.0
+
+# HTML Parsing Helpers
+html5lib==1.1
+
+# Async Support
+aiohttp==3.9.3
+asyncio==3.4.3
+
+# Utilities
+python-dotenv==1.0.1
+
+# Development Tools
+ipython==8.20.0
+jupyter==1.0.0
+
+# Logging and Monitoring
+loguru==0.7.2
+
+# Data Export
+openpyxl==3.1.2

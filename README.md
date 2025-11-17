@@ -81,18 +81,14 @@ pip list
 
 ## 🔧 Selenium用ChromeDriverについて
 
-Seleniumを使う場合、ChromeDriverが必要です。
-コンテナ内にインストールする場合：
+✅ **自動インストール済み**
 
-```bash
-# Chrome と ChromeDriver のインストール
-sudo apt-get update
-sudo apt-get install -y wget unzip
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install -y ./google-chrome-stable_current_amd64.deb
-```
+コンテナ起動時に以下が自動的にインストールされます：
+- Google Chrome
+- ChromeDriver（Chrome のバージョンに対応したもの）
+- Playwright Chromium
 
-または、ヘッドレスブラウザとして動作するよう設定することも可能です。
+特別な設定は不要で、すぐに Selenium や Playwright を使った演習が可能です！
 
 ## 📚 勉強会資料
 

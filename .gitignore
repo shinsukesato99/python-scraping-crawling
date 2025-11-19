@@ -35,11 +35,6 @@ env/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Output files
-*.csv
-*.xlsx
-*.log
-
 # OS
 .DS_Store
 Thumbs.db
@@ -48,3 +43,4 @@ Thumbs.db
 data/
 output/
 downloads/
+solutions/

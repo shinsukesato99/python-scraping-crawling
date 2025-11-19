@@ -4,9 +4,12 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "ms-toolsai.jupyter"
+        "PKief.material-icon-theme",
+        "eamodio.gitlens",
+        "GitHub.copilot",
+        "streetsidesoftware.code-spell-checker",
+        "donjayamanne.python-extension-pack",
+        "ms-python.vscode-pylance"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",

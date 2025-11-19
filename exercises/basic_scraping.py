@@ -17,6 +17,6 @@ print("\n" + "="*60)
 print("【課題2】特定の著者でフィルタリング")
 print("="*60 + "\n")
 
-# 【課題2】Albert Einsteinの名言だけをフィルタリング
+# 時間余れば【課題2】Albert Einsteinの名言だけをフィルタリング
 # TODO: Albert Einsteinの名言だけを抽出
 # TODO: 見つかった名言を表示

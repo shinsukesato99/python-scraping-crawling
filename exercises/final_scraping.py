@@ -17,7 +17,7 @@ class BookImageDownloader:
         # キーワードを含む書籍を検索して該当の書籍の画像のurlを取得
         # 松木さん・中島さんが実装
         # TODO: ページを取得
-        # TODO: article.product_pod を全て取得
+        # TODO: <article class="product_pod"> を全て取得
         # TODO: タイトルに keyword を含むものだけ抽出
         # TODO: タイトル、画像URL、価格を self.books に追加
         # self.booksの形式としては以下のような配列
@@ -32,12 +32,27 @@ class BookImageDownloader:
 
     def download_images(self):
         """画像を一括ダウンロード"""
-        # 【10-20分】ペアB が実装
-        # TODO: book_images/ ディレクトリ作成
-        # TODO: 各書籍の画像をダウンロード
-        # TODO: 連番_タイトル.jpg で保存
-        # TODO: time.sleep(1) でレート制限
-        pass
+        # search_booksでHitした書籍情報（urlを含む）をもとに画像をダウンロード
+        # self.booksの形式としては以下のような配列でurlが格納されていると想定する
+        # self.books = [
+        #     {
+        #         'title': title,
+        #         'image_url': full_img_url,
+        #         'price': price
+        #     })
+        # ]
+
+        # 國田さん・谷さんが実装
+        # book_images/ ディレクトリ作成 ここに画像ファイルをDLする
+        save_dir = 'book_images'
+        os.makedirs(save_dir, exist_ok=True)
+
+        # 各書籍の画像をダウンロード
+        for i, book in enumerate(self.books, 1):
+            # TODO: 各書籍の画像をダウンロード
+            # TODO: jpg で保存
+            # TODO: time.sleep(1) でレート制限
+            pass
 
     def run(self):
         """実行"""
